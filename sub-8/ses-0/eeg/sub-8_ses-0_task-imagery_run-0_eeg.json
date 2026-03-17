@@ -1,0 +1,45 @@
+{
+	"TaskName": "imagery",
+	"Manufacturer": "Deymed TruScan 32",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 1024.0,
+	"SoftwareFilters": {
+		"preprocessing_steps": {
+			"Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+		}
+	},
+	"RecordingDuration": 731.7177734375,
+	"RecordingType": "continuous",
+	"EEGReference": "FCz",
+	"EEGGround": "AFz",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 19,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Deymed TruScan 32",
+	"HardwareFilters": {
+		"Bandpass": {
+			"LowCutoffFrequency": 0.5,
+			"HighCutoffFrequency": 60.0
+		},
+		"Notch": {
+			"CutoffFrequency": [
+				50.0
+			]
+		}
+	},
+	"TaskDescription": "Asynchronous voluntary finger tapping: right tap, left tap, and resting state Trial duration: 6.0s.",
+	"Instructions": "Participants were asked to tap their index finger at a self-chosen time within a 10-second window after the cue",
+	"CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8a834779883/",
+	"InstitutionName": "University of Reading",
+	"InstitutionAddress": "GB",
+	"InstitutionalDepartmentName": "Brain Embodiment Lab, Biomedical Engineering",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}
