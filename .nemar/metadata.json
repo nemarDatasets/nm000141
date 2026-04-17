@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Maitreyee Wairagkar": {
+      "orcid": "0000-0002-9546-2843"
+    },
+    "Yoshikatsu Hayashi": {},
+    "Slawomir J. Nasuto": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0193722",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000141",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000141",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Motor execution dataset from Wairagkar et al 2018",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "599.1 MB (17 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This is a preprocessed EEG dataset from 14 healthy participants performing motor imagery tasks, comprising 1,665 trials across three conditions: right-hand imagery, left-hand imagery, and rest. Recorded at 1024 Hz using 19 channels in a standard 10-20 montage, the dataset includes asynchronous motor imagery paradigm data with visual cue presentation. The data has undergone artifact removal via ICA and filtering, and is accompanied by HED event annotations for standardized interpretation.",
+  "methods_description": "EEG data were acquired using a Deymed TruScan 32 system at 1024 Hz sampling rate with 19 Ag/AgCl ring electrodes in standard 10-20 montage (reference: FCz, ground: AFz). Online filters included 0.5 Hz high-pass, 60 Hz low-pass, and 50 Hz notch filtering. Preprocessing involved DC offset removal, ICA-based artifact removal (EEGLAB infomax), and trial segmentation from -3 to +3 seconds around movement onset. Participants performed asynchronous voluntary finger tapping (right, left, or rest) following visual text cues within a 10-second window.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "event-related desynchronization"
+    },
+    {
+      "term": "asynchronous paradigm"
+    }
+  ],
+  "source_hash": "7936dea70d8a1c27637ad63ce4576c680f18e06dd8ce7bb13f22c4516fd6f7cb"
+}
