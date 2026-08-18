@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor execution dataset from Wairagkar et al 2018",
-  "description": "A preprocessed EEG dataset from 14 healthy participants performing motor imagery tasks, consisting of 1,665 trials across three conditions: right-hand imagery, left-hand imagery, and rest. Recorded at 1024 Hz using 19 EEG channels with a standard 10-20 montage, the dataset includes asynchronous motor imagery paradigm data with visual cues. This derivative dataset was processed using ICA artifact removal and frequency filtering, and is accompanied by HED event annotations for standardized interpretation.",
-  "methods_description": "EEG data were acquired at 1024 Hz from 19 channels (Ag/AgCl ring sensors) using a Deymed TruScan 32 system with standard 10-20 montage. Preprocessing included DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, and ICA artifact removal (EEGLAB infomax). Trials were segmented from -3 to +3 seconds around movement onset. Participants performed asynchronous voluntary finger tapping tasks (right tap, left tap, resting state) cued by visual text stimuli within 10-second windows.",
+  "description": "A preprocessed EEG dataset comprising motor imagery recordings from 14 healthy participants performing imagined right-hand tapping, left-hand tapping, and rest tasks. The dataset contains 1,665 trials acquired at 1024 Hz using a 19-channel montage with standard 10-20 electrode placement. Data have been preprocessed with ICA artifact removal and frequency filtering, and are annotated with HED tags for standardized event description.",
+  "methods_description": "EEG signals were recorded at 1024 Hz using a Deymed TruScan 32 amplifier with 19 Ag/AgCl ring electrodes in standard 10-20 montage (reference: FCz, ground: AFz). Online filters included 0.5 Hz high-pass, 60 Hz low-pass, and 50 Hz notch filtering. Preprocessing involved DC offset removal, ICA-based artifact removal (EEGLAB infomax), and trial segmentation from -3 to +3 seconds around movement onset. Participants performed asynchronous motor imagery tasks with visual text cues in a self-paced manner within 10-second windows.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,10 +15,10 @@
   },
   "keywords": [
     {
-      "term": "motor imagery"
+      "term": "EEG"
     },
     {
-      "term": "EEG"
+      "term": "motor imagery"
     },
     {
       "term": "brain-computer interfaces"
@@ -78,5 +78,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "659c5dc750562beea34171f93e6f1beeb3951819d9fb20e980a054f908a40789"
+  "source_hash": "e9355ffd7a07a5b77d0ebf416435730cef3dc3d378134ec2abdc5257fc063a89"
 }
